@@ -32,4 +32,30 @@ std::vector<int> vec_d{10,20,30,40,50};
     - makes the vector empty.
 
 ```C++
+std::vector<int> list;
+list.push_back(5);
+list.pop_back();
+```
+```C++
+void square(std::vector<int> &list){
+    for(int &x:list)
+        x *= x;
+    // 또는 
+    // for(int i=0; i<list.size();++i)
+    // list[i] *= list[i];
+}
+void print(std::vector<int> list){
+    for(int x:list)
+        std::cout << x <<" ";
+    std::cout << "\n";
+}
+int main(){
+    std::vector<int> list; // Declare list to be a vector
+    list.push_back(5);
+    list.push_back(-3);
+    list.push_back(12);
+    print(list);
+    square(list);
+    print(list);
+}
 ```
