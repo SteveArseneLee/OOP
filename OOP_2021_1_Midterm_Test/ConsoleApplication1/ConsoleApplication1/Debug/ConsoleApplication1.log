@@ -1,0 +1,6 @@
+﻿  OOP_2021_1_Midterm_Lib.lib(Lib.obj) : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+LINK : warning LNK4075: '/INCREMENTAL'이(가) '/LTCG' 사양으로 인해 무시됩니다.
+OOP_2021_1_Midterm_Lib.lib(Lib.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '0' 값이 '2'(OOP_2021_1_Midterm.obj에 위치) 값과 일치하지 않습니다.
+OOP_2021_1_Midterm_Lib.lib(Lib.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MD_DynamicRelease' 값이 'MDd_DynamicDebug'(OOP_2021_1_Midterm.obj에 위치) 값과 일치하지 않습니다.
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+C:\Users\lclgo\Desktop\2021_1\객체지향프로그래밍\OOP_2021_1_Midterm_Test\ConsoleApplication1\Debug\ConsoleApplication1.exe : fatal error LNK1319: 2개의 불일치가 검색되었습니다.
